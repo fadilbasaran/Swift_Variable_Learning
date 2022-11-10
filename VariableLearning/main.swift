@@ -70,11 +70,25 @@ var mod:Int=i1%i3
 
 print("Mod: "+mod.formatted()+" Toplam: "+sum.formatted())
 
+
+
 //mantıksal ifadeler
-
-
-
+ 
 var equals:Bool=f1>f2
 print(equals)
 
+//Tip dönğüşümleri
+var d12:Int=10
+
+var d23="d1 değişkenin değeri "+String(d12)
+
+print(d2)
+
+var d33:Double=Double(d12)
+print(d33)
+
+
+var id3:Int=Int(d33)
+
+print(id3)
 
