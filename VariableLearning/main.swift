@@ -92,3 +92,33 @@ var id3:Int=Int(d33)
 
 print(id3)
 
+var t1=(12,14.6,"metin",true)
+
+t1.0=14
+
+t1.1=15.2
+
+t1.2="hayat"
+t1.3=false
+
+
+print(t1.0)
+
+
+var t2=(td1:21,td2:"yazı")
+
+print(t2.td1)
+
+//Optional
+//Bir değişkenin olabilir olmaya bilir
+
+
+var yas :Int?//boş gelebilir
+
+yas=19
+
+print(yas!)//Bu durumun farkındayım
+
+var d6:Int=yas!
+
+
