@@ -55,3 +55,26 @@ let d9:Int=10//Değeri hiç bir zaman değişmiyor
 var d10:String="metin \" \r second satır"
 
 print(d10)
+
+//Aritmeitik ifadeler
+
+var f1:Float=54
+var f2:Float=46
+var i1:Int=23
+var i3:Int=4
+
+
+var sum:Float=f1+f2
+
+var mod:Int=i1%i3
+
+print("Mod: "+mod.formatted()+" Toplam: "+sum.formatted())
+
+//mantıksal ifadeler
+
+
+
+var equals:Bool=f1>f2
+print(equals)
+
+
